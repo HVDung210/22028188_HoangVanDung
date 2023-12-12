@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="389.0" style="-fx-background-color: #dbf6fc;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.CallController">
+    <children>
+        <Label layoutX="153.0" layoutY="14.0" prefHeight="34.0" prefWidth="87.0" text="USERNAME 1">
+            <font>
+                <Font name="Castellar" size="12.0" />
+            </font>
+        </Label>
+        <Button layoutX="171.0" layoutY="507.0" mnemonicParsing="false" onAction="#EndCall1" prefHeight="19.0" prefWidth="44.0" style="-fx-background-color: #dbf6fc;">
+            <graphic>
+                <ImageView fitHeight="35.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Image/phone.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+      <Button layoutX="6.0" layoutY="60.0" mnemonicParsing="false" style="-fx-background-color: gray; -fx-border-color: black;">
+         <graphic>
+              <ImageView fitHeight="364.0" fitWidth="362.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                      <Image url="@Image/anh-hoat-hinh-anime-dep-kute-1068x1068.jpg" />
+                  </image>
+               <effect>
+                  <Blend />
+               </effect>
+              </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="266.0" layoutY="392.0" mnemonicParsing="false" prefHeight="108.0" prefWidth="109.0" style="-fx-background-color: gray; -fx-border-color: black;">
+         <graphic>
+            <ImageView fitHeight="104.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image/Avatar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="Time" layoutX="323.0" layoutY="14.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="59.0">
+         <font>
+            <Font name="Castellar" size="13.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
